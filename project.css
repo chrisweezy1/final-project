@@ -14,21 +14,34 @@
 }
 
 
-.font-size-x {
+.font-size-20 {
     font-size: 1.25rem;
 }
 
 
-.font-size-y {
+.font-size-24 {
     font-size: 1.5rem;
     
 }
 
 
-.font-size-w {
+.font-size-14 {
     font-size: 0.875rem;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.button_1 {
+    display: inline-block;
+    padding: 10px 35px;
+    background: #f8f8f8;
+    border-radius: 25px;
+    transition: opacity 0.3s ease-out;
+    font-weight: bold;
+    color: #242424;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1rem;
 }
