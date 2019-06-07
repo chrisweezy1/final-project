@@ -1,4 +1,6 @@
-
+.nav_bar {
+    background: #0D0D0D
+}
 li {
     list-style: none;
     display: inline-block;
