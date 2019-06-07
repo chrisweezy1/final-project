@@ -1,3 +1,29 @@
+
+li {
+    list-style: none;
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 40px;
+    cursor: pointer;
+}
+nav{
+    display: none;
+    background-color: aquamarine;
+}
+
+button#toggleMenu {
+    display: block;
+}
+nav.open {
+    display: block;
+}
+
+nav li {
+    display: block;
+    padding: 7px 0;
+    color: white;
+}
+
 .main_section {
     text-align: center;
     background-color: #0D0D0D;
