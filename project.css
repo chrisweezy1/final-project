@@ -1,6 +1,11 @@
 .nav_bar {
-    background: #0D0D0D
-}
+    background: #0D0D0D;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-content: space-around;
+    }
+
 li {
     list-style: none;
     display: inline-block;
