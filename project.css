@@ -14,11 +14,11 @@ li {
     cursor: pointer;
 }
 nav{
-    display: none;
-    background-color: aquamarine;
+    display: none
 }
 
 button#toggleMenu {
+    border: none;
     display: block;
 }
 nav.open {
