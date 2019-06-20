@@ -53,7 +53,9 @@ nav li {
     color: aliceblue;
     padding: 0.875rem 0px;
 }
-
+.letter-spacing {
+    letter-spacing: 9px;
+}
 .margin-button-14 {
     margin-bottom: 0.875rem;
 }
@@ -119,9 +121,13 @@ nav li {
 }
 
 .main_3 {
-    padding: 0 20px;
-    margin-bottom: 30px;
+   margin-bottom: 30px;
 }
+
+.section_padding {
+    padding: 0 20px;
+}
+
 .product_image {
     display: block;
     width: 50%;
@@ -149,7 +155,7 @@ nav li {
     font-size: 13;
     display: inline-block;
     padding: 10px 35px;
-    background: #f8f8f8;
+    background-color:#f8f8f8;;
     border-radius: 25px;
     transition: opacity 0.3s ease-out;
     font-weight: bold;
@@ -160,6 +166,13 @@ nav li {
     width: 100%;
     height: auto;
     border: none;
+    border: 1px solid #242424;
+    margin: 15px;
+}
+
+.button_2_background {
+    background-color: black;
+    color: #f8f8f8;
 }
 
 .main_4 {
