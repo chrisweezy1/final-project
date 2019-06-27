@@ -252,6 +252,13 @@ img {
     display: flex;
     flex-direction: row;
     background-color: #0D0D0D;
-    padding: 80px 15px 0px;
+    padding: 80px 35px 0px;
     color: #8c8c8c;
+}
+
+.title_2_container {
+    color: #f8f8f8;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .2em;
 }
