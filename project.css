@@ -103,11 +103,11 @@ nav li {
 }
 
 .main_picture_1 {
-    width: 100wv;
     height: 311px;
 }
 .main_picture_1 img {
     height: 100%;
+    width: 100%;
 }
 
 .font-size-12 {
@@ -194,12 +194,12 @@ nav li {
     width: 100wv;
     height: 311px;
 }*/
-.main_pic_2 img {
+.main_pic_2 {
     width: 100%;
 }
 
 img {
-max-width: 100%;
+    max-width: 100%;
 }
 .footer_container {
     background-color: #0D0D0D;
