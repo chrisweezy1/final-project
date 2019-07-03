@@ -13,6 +13,9 @@ body {
     justify-content: space-around;
     align-items: center;
     }
+.bose_logo_desktop {
+    display: none;
+}
 .boss_logo {
     width: auto;
     height: 60px;
@@ -35,7 +38,6 @@ nav{
 
 button#toggleMenu {
     border: none;
-    display: block;
     background: #0D0D0D;
     color: aliceblue;
     font-weight: bold;
@@ -261,4 +263,32 @@ img {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: .2em;
+}
+
+@media (min-width: 800px) {
+    .nav_bar {
+        background-color: #0D0D0D;
+        color: white;
+        display: block;
+        display: flex;
+        justify-content: left;
+    }
+    .nav_bar nav {
+        display: block;
+    }
+    .nav_bar ul {
+        display: inline-flex;
+        justify-content: left;
+    }
+    .nav_bar button {
+        display: none;
+    }
+    .nav_bar .boss_logo {
+        display: none;
+    }
+    .nav_bar .bose_logo_desktop {
+        width: auto;
+        height: 77px;
+        display: block;
+    }
 }
