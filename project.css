@@ -20,6 +20,9 @@ body {
     width: auto;
     height: 60px;
 }
+.search_bar {
+    display: none;
+}
 .search_icon {
     width: 30px;
     height: 30px;
@@ -31,6 +34,9 @@ li {
     font-weight: 700;
     margin-right: 40px;
     cursor: pointer;
+}
+.li_padding {
+    display: none;
 }
 nav{
     display: none
@@ -272,6 +278,7 @@ img {
         display: block;
         display: flex;
         justify-content: left;
+        margin: 0px 34.5px;
     }
     .nav_bar nav {
         display: block;
@@ -279,16 +286,34 @@ img {
     .nav_bar ul {
         display: inline-flex;
         justify-content: left;
-    }
+   }
     .nav_bar button {
         display: none;
     }
     .nav_bar .boss_logo {
         display: none;
+    
     }
     .nav_bar .bose_logo_desktop {
         width: auto;
         height: 77px;
         display: block;
+        margin: 0px 60px 0px 30px;
     }
+    .nav_bar .search_bar {
+        display: block;
+        border-radius: 25px;
+        padding: 5px 0px 0px 80px;
+        background-color:gray;
+    }
+    .nav_bar .li_padding {
+        display: block;
+        padding: 14px 20px;
+        font-size: 12px;
+        margin: 0px;
+    }
+    .nav_bar .ul_container {
+        
+    }
+
 }
