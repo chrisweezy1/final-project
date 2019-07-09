@@ -275,13 +275,14 @@ img {
         color: white;
         display: block;
         display: flex;
-        justify-content: left;
+        align-items: self-end;
     }
     .nav_bar nav {
         display: block;
+        margin-top: 34px;
     }
     .nav_bar ul {
-        display: inline-flex;
+        display:flex;
         justify-content: flex-end;
         align-content: flex-end;
    }
@@ -302,11 +303,12 @@ img {
         display: block;
         border-radius: 25px;
         padding: 5px 0px 0px 80px;
-        background-color:gray;
+        background-color:white;
+        margin-top: 10px;
     }
     .nav_bar .li_padding {
         padding: 14px 20px;
-        font-size: 12px;
+        font-size: 14px;
         margin: 0px;
     }
     .nav_bar .ul_container {
@@ -315,7 +317,63 @@ img {
     }
     .main_2 {
         background-image: url('pictures/ben-mullin.jpg');
-        background-size: 100%;
+        background-size: 79%;
+        background-repeat: no-repeat;
+        height: 700px;
+        background-size: cover;
     }
+    .main_picture_1 {
+        display: none;
+    }
+    .main_2_text {
+        text-align: left;
+        bottom: 23%;
+        background-color: transparent;
+        width: calc(60%);
+        max-width: 990px;
+        z-index: 10;
+    }
+    .letter-spacing{
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 20px 50px;
+    }
+    .button_2 {
+        display: none;
+    }
+    .section_padding {
+        di
+    }
+    .section_padding .product_image {
+        display: block;
+        width: 100%;
+        margin-bottom: 60px;
+}
+    .hide_line {
+    display: none;
+}
+    .products_layout {
+        display: flex;
+        flex-direction: row;
+    }
+.main_3 .font-size-12 {
+    font-size: 14px;
+}
 
+.main_3 .title-container {
+    display: none;
+}
+
+.main_4 {
+    background-image: url('pictures/ya1002449556_3.jpg');
+    background-size: 79%;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+.main_pic_2 {
+    display: none;
 }
