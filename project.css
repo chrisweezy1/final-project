@@ -35,9 +35,7 @@ li {
     margin-right: 40px;
     cursor: pointer;
 }
-.li_padding {
-    display: none;
-}
+
 nav{
     display: none
 }
@@ -278,14 +276,14 @@ img {
         display: block;
         display: flex;
         justify-content: left;
-        margin: 0px 34.5px;
     }
     .nav_bar nav {
         display: block;
     }
     .nav_bar ul {
         display: inline-flex;
-        justify-content: left;
+        justify-content: flex-end;
+        align-content: flex-end;
    }
     .nav_bar button {
         display: none;
@@ -307,13 +305,17 @@ img {
         background-color:gray;
     }
     .nav_bar .li_padding {
-        display: block;
         padding: 14px 20px;
         font-size: 12px;
         margin: 0px;
     }
     .nav_bar .ul_container {
-        
+        flex-direction: row;
+        align-content: flex-end;
+    }
+    .main_2 {
+        background-image: url('pictures/ben-mullin.jpg');
+        background-size: 100%;
     }
 
 }
