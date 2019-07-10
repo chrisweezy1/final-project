@@ -335,6 +335,7 @@ img {
         background-repeat: no-repeat;
         height: 700px;
         background-size: cover;
+        background-position: center;
     }
     .main_picture_1 {
         display: none;
@@ -387,6 +388,7 @@ img {
     background-repeat: no-repeat;
     height: 700px;
     background-size: cover;
+    background-position: center;
 }
 .main_pic_2 {
     display: none;
@@ -427,4 +429,24 @@ img {
     }
     .search_icon {
         display: none;
+    }
+    .main_2_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: right;
+        text-align: -webkit-center;
+        float: left;
+        margin-top: 311px;
+        margin-left: -205px;
+    }
+    .main_4_text {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    text-align: -webkit-center;
+    float: left;
+    margin-top: 311px;
+    margin-left: 34px;
     }
