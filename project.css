@@ -51,6 +51,10 @@ nav li {
     padding: 7px 0;
     color: white;
 }
+.menu-links{
+    text-decoration:none;
+    color:white;
+}
 .main_2 {
     text-align: center;
     background-color: #0D0D0D;
@@ -386,7 +390,10 @@ img {
 }
 .style {font-size: 14px;
     display: flex;
-    align-items: center;}
+    align-items: center;
+    width: 100%;
+    border-top: solid 1px white;
+}
     .line-container_1 {
         display: none;
     }
@@ -444,4 +451,5 @@ img {
     .shop {
         display: block;
     }
+    i
 }
